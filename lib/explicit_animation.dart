@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-const double dotSize = 20;
-const int totalDot = 15;
+const double dotSize = 15;
+const int totalDot = 20;
 
 class ExplicitAnimation extends StatefulWidget {
   const ExplicitAnimation({super.key});

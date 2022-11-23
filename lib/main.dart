@@ -1,5 +1,6 @@
 import 'package:example_animation/explicit_animation.dart';
 import 'package:example_animation/heart.dart';
+import 'package:example_animation/water_wave.dart';
 import 'package:flutter/material.dart';
 
 import 'implicit_animation.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Heart(),
+      home: const WaterWave(),
     );
   }
 }
