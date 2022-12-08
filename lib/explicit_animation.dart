@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'dart:math' as math;
+
+import 'package:flutter/material.dart';
 
 const double dotSize = 15;
 const int totalDot = 20;
@@ -73,6 +74,7 @@ class _ExplicitAnimationState extends State<ExplicitAnimation>
 
         return RotationTransition(
           turns: _controller,
+          alignment: Alignment.center,
           child: Stack(
             children: [
               for (int i = 1; i <= totalDot; i++) createDot(biggest, i)
